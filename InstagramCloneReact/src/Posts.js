@@ -85,7 +85,7 @@ function Post(props) {
     <div className="post">
       <div className="topo">
         <div className="usuario">
-          <img src={imagemUsuario} />
+         <img src={imagemUsuario} alt={usuario} />
           {usuario}
         </div>
         <div className="acoes">
@@ -93,7 +93,7 @@ function Post(props) {
         </div>
       </div>
       <div className="conteudo">
-        <img src={imagemConteudo} onClick={likesPostImagem} />
+        <img src={imagemConteudo} alt="post content" onClick={likesPostImagem} />
       </div>
 
       <div className="fundo">
